@@ -71,16 +71,6 @@ python data/download_dataset.py --output-dir ./datasets/volleyball
 | HRNet-DeepSORT | 95.37% | 96.41% | 94.72% | 0.9487 | 12.1 |
 | PoseNet-DeepSORT | 92.06% | 93.57% | 91.38% | 0.9195 | 21.4 |
 
-## Citation
-
-```bibtex
-@article{volleyball2025,
-  title={Volleyball Player Pose Estimation and Motion Tracking using OpenPose and DeepSORT},
-  author={Guo Zhongxi},
-  year={2025}
-}
-```
-
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
