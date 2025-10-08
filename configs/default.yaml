@@ -1,0 +1,27 @@
+# Default configuration
+
+model:
+  yolo:
+    input_size: 608
+    confidence_threshold: 0.5
+    nms_threshold: 0.4
+  
+  openpose:
+    num_keypoints: 18
+    num_stages: 6
+    paf_threshold: 0.1
+  
+  deepsort:
+    max_cosine_distance: 0.3
+    max_age: 30
+    nn_budget: 100
+
+training:
+  batch_size: 8
+  learning_rate: 0.0001
+  epochs: 30
+  optimizer: adam
+
+augmentation:
+  rotation_range: [-30, 30]
+  noise_sigma: 15
